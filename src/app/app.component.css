@@ -1,0 +1,42 @@
+/* Container untuk daftar film */
+.movie-container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       padding: 20px;
+   }
+   
+   /* Setiap film */
+   .movie-card {
+       background-color: #f8f8f8;
+       border: 1px solid #ddd;
+       border-radius: 8px;
+       margin: 10px;
+       padding: 15px;
+       width: 200px; /* Atur lebar sesuai kebutuhan */
+       text-align: center;
+       transition: transform 0.2s;
+   }
+   
+   .movie-card:hover {
+       transform: scale(1.05); /* Efek zoom saat hover */
+   }
+   
+   /* Gambar poster */
+   .movie-card img {
+       border-radius: 5px;
+       max-width: 100%; /* Pastikan gambar responsif */
+       height: auto;
+   }
+   
+   /* Judul film */
+   .movie-title {
+       font-size: 1.2em;
+       margin: 10px 0;
+   }
+   
+   /* Deskripsi film */
+   .movie-overview {
+       font-size: 0.9em;
+       color: #555;
+   }
