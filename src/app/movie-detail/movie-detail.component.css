@@ -1,0 +1,41 @@
+.movie-detail-container {
+       max-width: 800px;
+       margin: auto;
+       padding: 20px;
+       font-family: Arial, sans-serif;
+   }
+   
+   .movie-info {
+       display: flex;
+       align-items: flex-start;
+       margin-top: 20px;
+   }
+   
+   .movie-poster {
+       width: 250px; /* Lebar gambar poster */
+       height: auto; /* Tinggi otomatis untuk menjaga rasio */
+       margin-right: 20px; /* Ruang di sebelah kanan gambar */
+       border-radius: 5px; /* Sudut melingkar */
+   }
+   
+   .movie-description {
+       flex: 1; /* Memungkinkan deskripsi mengambil ruang yang tersisa */
+   }
+   
+   h2, h3 {
+       margin-top: 10px;
+       color: #333;
+   }
+   
+   p {
+       color: #555;
+   }
+   
+   ul {
+       list-style-type: none; /* Menghilangkan bullet points */
+       padding: 0; /* Menghilangkan padding */
+   }
+   
+   li {
+       margin-bottom: 5px; /* Ruang di antara item daftar */
+   }
